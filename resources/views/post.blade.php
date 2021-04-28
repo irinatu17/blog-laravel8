@@ -11,12 +11,8 @@
 <title>My Post</title>
 </head>
 <body>
-
-
     <article>
-        <h1><a href="/post"> My First Post</a></h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quos, vel numquam aliquam magni sint praesentium atque. Facere, saepe reprehenderit. Natus facilis officia asperiores, incidunt architecto obcaecati quae reiciendis officiis.</p>
+        
     </article>
     
     <a href="/">Go back</a>
