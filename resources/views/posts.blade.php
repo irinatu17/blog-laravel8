@@ -14,7 +14,14 @@
 
 <?php foreach ($posts as $post) : ?>
     <article>
-        <?= $post; ?>
+        <h1>
+            <a href="/posts/<?= $post->slug; ?>">
+                {{ $post->title }} 
+            </a>
+        </h1>
+
+        <div><?= $post->excerpt; ?></div>
+        
     </article>
 <?php endforeach; ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
