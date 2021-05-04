@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<link rel="stylesheet" href="/assets/css/app.css">
-<title>My Post</title>
-</head>
-<body>
+<x-layout >
     <article>
-        <h1><?= $post->title; ?></h1>
+        <h1>{{ $post->title }} </h1>
     <div>
-    <?= $post->body; ?>
+    {!! $post->body !!}
 
     </div>
     </article>
     
     <a href="/">Go back</a>
 
-</body>
-</html>
+</x-layout >
